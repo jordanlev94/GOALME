@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+
+    <title>CATCH ME IF YOU CAN </title>
+</head>
+
+<body>
+
+    <div class='container' id="main">
+
+
+
+        <div id="spanstart">
+
+            <div onmouseover="fonctionStart()" onmouseout="fonctiononmouseout()" class="btnstart" id="btnstart">
+
+                <h1>GOAL ME IF YOU CAN</h1>
+            </div>
+        </div>
+
+        <div class="boxblack" id="boxblack">
+            <div class=""></div>
+            <div class="clickme" id="clickme"> </div>
+            <audio id="audioPlayer" src="../Catch Me If You Can/assets/1044.mp3"></audio>
+            <audio id="audioPlayer2" src="../Catch Me If You Can/assets/bruh-sound-effect-2.mp3"></audio>
+
+        </div>
+
+
+        <div class="blocdroit" id="blocdroit">
+
+            <div class="boxdroit" id="score"> Score :
+
+                <div id="Scoredom"> 0 </div>
+
+            </div>
+
+            <div class="boxdroit" id="pointToNextLevel"> Click jusqu'au prochain niveau
+
+                <div id="pointToNextLeveldom"> 0 </div>
+            </div>
+
+
+            <div class="boxdroit" id="level"> Level :
+
+                <div id="leveldom"> 0 </div>
+            </div>
+
+            <div class="boxdroit" id="missclic"> Missedd clic :
+                <div id="missclicdom">
+                </div>
+            </div>
+
+            <div class="boxdroit" id="timer"> Timer :
+                <div id="timerdom"> 00:00</div>
+                
+            </div>
+            <div class="boxdroit" id="highscores"> Meilleure scores :
+
+                <div id="highscoresdom" >
+                   
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

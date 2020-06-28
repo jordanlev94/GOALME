@@ -1,0 +1,112 @@
+    
+    
+    
+    
+    .container{
+        margin: auto;
+    }
+    
+    
+    .btnstart{
+    border: black 2px solid;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    margin-bottom: 13px;
+    width: 1242px;
+    margin-left: 54px;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Days One', sans-serif;
+}
+
+    
+
+    .blocdroit{
+        float: right;
+     width: 20%;
+     font-family: 'EB Garamond', serif;
+    height: 544px;
+     margin-right: 123px;
+    }
+
+    .boxblack{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 550px;
+        width: 950px;
+        float: left;
+        margin-left: 55px;
+        cursor: url('../assets/img/Colt_FirstPerson.png'), center;
+        background-image: url('../assets/img/CASSTE2.png');
+        
+    }
+
+    .boxdroit{
+        padding-top: 5px;
+        margin-bottom: 20px;
+        height: 70px;
+        text-align: center;
+        background-color: grey;
+        border-radius: 20px;
+       box-shadow: black;
+       font-size: 24px;
+
+    }
+
+.clickme{
+    
+    
+    background-image: url('../assets/img/ballon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    position: relative;
+    animation: spin 0s infinite linear;
+    cursor: grab;
+}
+.spanstart{
+border: red 1px solid;
+text-align: center;
+margin-bottom: 13px;
+width: 1242px;
+margin-left: 54px;
+height: 80px;
+border-radius: 20px;
+}
+
+.date{
+display: none;
+position: absolute;
+top: -10px;
+
+}
+
+.hsplayer{
+    position: relative;
+}
+
+.hsplayer:hover .date{
+    display: block;
+}
+
+#highscores{
+height: 200px;
+}
+
+#highscoresdom{
+    line-height: 5px;
+}
+
+@keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
